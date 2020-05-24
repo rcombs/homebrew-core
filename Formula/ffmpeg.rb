@@ -16,6 +16,7 @@ class Ffmpeg < Formula
   depends_on "pkg-config" => :build
   depends_on "texi2html" => :build
   depends_on "aom"
+  depends_on "aribb24"
   depends_on "dav1d"
   depends_on "fontconfig"
   depends_on "freetype"
@@ -66,6 +67,7 @@ class Ffmpeg < Formula
       --enable-gnutls
       --enable-gpl
       --enable-libaom
+      --enable-libaribb24
       --enable-libbluray
       --enable-libdav1d
       --enable-libmp3lame
